@@ -5,7 +5,7 @@
   import PocketBase from 'pocketbase';
   import '../app.css';  // Import the Tailwind CSS
 
-  const pb = new PocketBase('https://ideate.pockethost.io');
+  const pb = new PocketBase('https://photoboard.pockethost.io/');
   setContext('pb', pb);
 
   function handleLogout() {
